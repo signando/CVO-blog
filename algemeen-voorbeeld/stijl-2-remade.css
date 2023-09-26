@@ -1,0 +1,229 @@
+
+body {
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.container-black {
+    background-color: black;
+}
+
+.container-80 {
+    width: 80%;
+    margin: auto;
+}
+
+.CF-header {
+    display: grid;
+    grid-template-columns: auto 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h1-myblog {
+    color: white;
+}
+
+.container-main-nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: end;
+    column-gap: 15%;
+}
+
+.container-main-nav a {
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+}
+.container-main-nav a:hover, .container-main-nav a:focus {
+    color: rgb(104, 104, 104);
+}
+.container-main-nav .current-link {
+    color: red;
+}
+
+
+.container-80-2 {
+    width: 80%;
+    margin: auto;
+}
+
+.container-CF-main-sidebar {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 7.5%;
+}
+
+.h1-container-main {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+
+.article-A p, .article-B p, .article-C p {
+    color: rgb(165, 164, 164);
+}
+
+.myarticle {
+    margin: 0;
+    margin-top: 3.5rem;
+}
+.B, .C {
+    margin-top: 2rem;
+}
+
+.p-published {
+    font-size: 0.75rem;
+    margin: 0;
+}
+.p-published + p {
+    font-size: 0.75rem;
+}
+
+.CF-navs {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 2.5rem;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(161, 161, 161);
+}
+.lastoftype {
+    border-bottom: 0 solid black;
+}
+
+.a-1-2-3 {
+    width: 120%;
+    margin-top: 1rem;
+}
+
+.a-1-2-3 a {
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-right: 2.5%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.a-read-more {
+    color: black;
+    text-decoration: none;
+    align-self: end;   
+}
+
+.h1-sidebar {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgb(161, 161, 161);   
+}
+
+.sidebar-search-A {
+    height: 9rem;
+    background-color: rgb(194, 194, 194);
+}
+.sidebar-search {
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.sidebar-search label {
+    display: block;
+}
+.sidebar-search input {
+  width: 100%;
+  height: 2rem;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  border-left: 0.15em solid black; 
+  border-top: 0.15em solid black; 
+  border-bottom: 0.15em solid rgb(165, 164, 164);
+  border-right: 0.15em solid rgb(165, 164, 164);
+  background-color: rgb(165, 164, 164); 
+}
+
+.sidebar-tags-A {
+    height: 7rem;
+    background-color: rgb(194, 194, 194);
+    margin-top: 2rem;
+}
+.sidebar-tags {
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.sidebar-tags h1 {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 1rem;   
+}
+.sidebar-tags a{
+    margin: 0;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-right: 2.5%;
+    color: white;
+    background-color: black;
+    border-radius: 5px;    
+}
+
+
+.footer-container-100-A {
+    margin-top: 2rem;
+    background-color: rgb(194, 194, 194);
+}
+
+.tweede-container-80 {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+
+.container-CF-aside {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    justify-content: space-between;
+    column-gap: 2%;
+}
+
+.aside h1 {
+    font-size: 1.35rem;
+    padding-bottom: 2rem;
+    color: rgb(119, 119, 119);
+    border-bottom: 1px solid rgb(119, 119, 119);
+}
+
+.aside iframe {
+    width: 100%;
+    height: 17.5em;
+}
+
+.aside figure {
+    width: 100%;
+    margin: 0;
+}
+.aside figure img {
+    width: 100%;
+    height: 17.5em;
+}
+
+
+.footer-container-100-B {
+    height: 2.5rem;
+    padding-top: 1rem;
+    background-color: rgb(128, 126, 126);
+}
+.derde-container-80 {
+    width: 80%;
+    margin: auto;
+}
+.derde-container-80 p {
+    text-align: center;
+    margin: 0;
+    margin-top: 0.5rem;
+    color: rgb(214, 213, 213);
+}

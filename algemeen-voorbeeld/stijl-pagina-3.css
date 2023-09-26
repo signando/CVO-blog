@@ -1,0 +1,40 @@
+
+.container-main section p {
+    font-size: 0.75rem;
+    color: rgb(153, 153, 153);
+}
+
+form {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+form textarea {
+    width: 100%;
+    height: 12rem;
+    background-color: rgb(223, 223, 223);
+    border: 0px solid transparent;
+}
+.CFIX {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+}
+.CFIX input {
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    border: 0px solid transparent;
+}
+
+.Submit {
+    height: 2rem;
+    margin-right: -0.5%;
+    justify-self: end;
+    background-color: rgb(110, 110, 110);
+    color: white;
+    border: 0 solid transparent;
+}
+.Submit:hover, .Submit:focus {
+    background-color: green;
+    cursor: pointer;
+}
